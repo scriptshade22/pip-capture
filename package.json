@@ -1,0 +1,16 @@
+{
+  "name": "pip-capture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code-generated marketing-asset pipeline for a web-based children's book",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  },
+  "main": "capture.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED"
+}
