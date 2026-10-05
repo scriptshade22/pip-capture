@@ -1,7 +1,7 @@
 const { chromium } = require('playwright');
 
 // Diagnostic helper for inspecting the reader's page-flip integration.
-const URL      = process.env.PIP_PROBE_URL || 'https://pip-book.vercel.app/pip';
+const URL      = process.env.PIP_PROBE_URL || 'https://www.whisperingwoodsbooks.com/pip';
 const VIEWPORT = { width: 1000, height: 760 };
 
 (async () => {

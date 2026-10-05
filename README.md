@@ -2,7 +2,7 @@
 
 A code-generated capture and marketing-asset pipeline for “Pip and the Magic Mushroom Rings,” the interactive reader from Whispering Woods Books.
 
-- Reader: https://pip-book.vercel.app/pip
+- Reader: https://www.whisperingwoodsbooks.com/pip
 - Main site: https://whisperingwoodsbooks.com/
 - This repo generates capture/demo and delivery assets around that experience.
 
@@ -31,8 +31,8 @@ python3 make_delivery.py
 # Defaults to http://localhost:3000/pip?capture=1
 PIP_CAPTURE_URL='http://localhost:3000/pip?capture=1' node capture.js
 
-# Optional diagnostic; defaults to https://pip-book.vercel.app/pip
-PIP_PROBE_URL='https://pip-book.vercel.app/pip' node probe.js
+# Optional diagnostic; defaults to https://www.whisperingwoodsbooks.com/pip
+PIP_PROBE_URL='https://www.whisperingwoodsbooks.com/pip' node probe.js
 
 # Uses the first recording and a 14-second duration by default.
 ./build.sh
